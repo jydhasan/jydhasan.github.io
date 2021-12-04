@@ -1,0 +1,75 @@
+ * {
+     margin: auto;
+ }
+
+ .navbar {
+     background: rgb(0, 212, 255);
+     background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(2, 0, 36, 1) 88%, rgba(9, 9, 121, 1) 100%);
+     padding: 20px;
+ }
+
+ .navbar h3 {
+     padding-left: 20%;
+ }
+
+ .navbar h2 {
+     color: aliceblue;
+ }
+
+ .cost {
+     text-align: center;
+     padding-top: 30px;
+
+ }
+
+ .cost h2 {
+     color: rgb(250, 14, 14);
+ }
+
+ .sheet {
+     padding: 50px;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .navbar {
+         padding: 5px;
+     }
+ }
+
+ .foot {
+     padding: 10px;
+     background: #592A99;
+     background: -webkit-linear-gradient(bottom, #592A99, #8F919E);
+     background: -moz-linear-gradient(bottom, #592A99, #8F919E);
+     background: linear-gradient(to top, #592A99, #8F919E);
+     height: 300px;
+ }
+
+ table {
+     display: table;
+     border-spacing: 15px;
+     width: 100%;
+ }
+
+ .dwn {
+     text-decoration: none;
+     background-color: aqua;
+     padding: 4px;
+     border-radius: 5px;
+ }
+
+ .dwn:hover {
+     color: rgb(134, 109, 109);
+     box-shadow: 5px 5px;
+ }
+
+ @media screen and (min-width: 480px) {
+     .foot {
+         display: flex;
+     }
+ }
+
+ .fnt {
+     font-size: larger;
+     color: rgb(255, 94, 0);
+ }
