@@ -78,13 +78,17 @@
      .sheet {
          padding: 50px;
      }
- }
 
- .fnt {
-     font-size: larger;
-     color: rgb(255, 94, 0);
- }
+     .fnt {
+         font-size: larger;
+         color: rgb(255, 94, 0);
+     }
 
- .foot1 {
-     padding-top: 10px;
- }
+     .foot1 {
+         padding-top: 10px;
+     }
+
+     .hrn {
+         background-color: red;
+         height: 2px;
+     }
