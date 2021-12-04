@@ -71,6 +71,10 @@
          display: flex;
      }
 
+     .foot1 {
+         padding: 50px;
+     }
+
      .sheet {
          padding: 50px;
      }
@@ -79,4 +83,8 @@
  .fnt {
      font-size: larger;
      color: rgb(255, 94, 0);
+ }
+
+ .foot1 {
+     padding-top: 10px;
  }
