@@ -27,11 +27,6 @@
      color: rgb(250, 14, 14);
  }
 
- .sheet {
-     text-align: justify;
-     padding: 3px;
- }
-
  @media only screen and (max-width: 600px) {
      .navbar {
          padding: 5px;
@@ -39,6 +34,7 @@
  }
 
  .foot {
+     margin-top: 20px;
      text-align: justify;
      padding: 10px;
      background: #592A99;
@@ -75,10 +71,6 @@
          padding: 50px;
      }
 
-     .sheet {
-         padding: 50px;
-     }
-
      .fnt {
          font-size: larger;
          color: rgb(255, 94, 0);
@@ -92,3 +84,9 @@
          background-color: red;
          height: 2px;
      }
+ }
+
+ .flex1 {
+     display: flex;
+     padding-top: 15px;
+ }
