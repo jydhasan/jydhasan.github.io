@@ -57,6 +57,13 @@
      border-radius: 5px;
  }
 
+ .dwn1 {
+     text-decoration: none;
+     background-color: aqua;
+     padding: 4px;
+     border-radius: 5px;
+ }
+
  .dwn:hover {
      color: rgb(134, 109, 109);
      box-shadow: 5px 5px;
@@ -89,4 +96,21 @@
  .flex1 {
      display: flex;
      padding-top: 15px;
+ }
+
+ .hasan {
+     width: 30%;
+ }
+
+ #hasan {
+     background-color: red;
+ }
+
+ .zahid {
+     width: 70%;
+     padding-left: 10%;
+ }
+
+ #zahid {
+     background-color: aqua;
  }
