@@ -108,9 +108,15 @@
 
  .zahid {
      width: 70%;
-     padding-left: 10%;
+     padding-left: 5px;
  }
 
  #zahid {
      background-color: aqua;
+ }
+
+ @media screen and (min-width:400px) {
+     .zahid {
+         padding-left: 10%;
+     }
  }
